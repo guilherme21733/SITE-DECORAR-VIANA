@@ -1,0 +1,320 @@
+
+
+
+
+
+
+body {
+    background-image: url('festive-frame-with-pink-roses-gray.jpg');  
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh; 
+    background-repeat: no-repeat;
+    
+    
+}
+
+@media (max-width:768px) {
+    body{
+    background-image:url(freepik-export-20250116220519RZEQ.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    }
+}
+
+
+
+
+
+#header{
+    display: flex;
+     
+ 
+ 
+
+}
+
+@media(max-width:768px) {
+    header{
+        display: flex;
+
+    }
+}
+
+#caixadalogoprincipal{ 
+  
+
+}
+
+#logoprincipal{
+    max-width: 200px;
+    min-width: 100px;
+    width:  200px ;
+    
+
+}
+
+
+@media(max-width:768px){
+    #logoprincipal{
+        width: 150px;
+    }
+}
+
+
+#links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+   
+     
+
+}
+
+#links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+    
+   
+
+    
+    
+}
+
+#links ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding: 0%;
+   
+    
+  
+    
+
+
+
+    
+}
+
+#links a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color:grey;
+    transition: 0.3s;
+
+
+}
+
+@media (max-width:768px) {
+    #links{
+        padding: 5px;
+        gap: 10px;
+
+    }
+    #links ul {
+       
+        gap: 7px;
+
+    }
+    #links a {
+       display: flex;   
+        padding: 5px 7px;
+    }
+
+}
+
+ @media (max-width:768px) {
+
+ }
+
+
+
+#layoutbox{
+    text-align: center;
+    padding-top: 100px;
+   
+}
+
+#seusonho{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+
+
+
+
+#button{
+    background-color: transparent;
+    width: 250;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    border-color: aliceblue;
+   
+    
+}
+
+#button:hover{
+    color: rgb(107, 107, 107);
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+   
+    
+   
+  
+}
+
+/*PART II START´S HERE*/
+
+#sobrenos{
+    padding-top: 230px;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    
+
+}
+
+
+
+@media (max-width:800px){
+#sobrenos{ padding-top:279px ;
+
+}
+}
+
+#textosobrenos{
+    text-align: center;
+    padding-top: 3%;
+   
+    
+
+    
+}
+
+#sobrenostudao{
+display: flex;
+
+
+
+}
+
+.imagemsobre{
+    width: 100px;
+    
+
+}
+ 
+
+#imagemsobrecaixa{
+
+    display: flex;
+    gap: 10px;
+   justify-content: center; 
+}
+
+#vermaisfotos{
+   color: black;
+   text-decoration: underline;
+   padding-left: 150px;
+
+   
+}
+
+
+
+
+
+
+
+
+/*PART III STARTS HERE*/
+
+#contatenosbox{
+    background-color: rgb(185, 185, 185);
+    
+}
+
+
+
+
+
+#contatenos{
+    padding-left: 30px;
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+    padding-top: 50px;
+    text-align: center;
+   
+
+
+}
+
+#pdocontate{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    text-align: center;
+   
+
+}
+
+#zapbutton{
+display: flex;
+background-color: white;
+border: none;
+border-radius: 5px;
+width: 150px;
+align-items: center;
+
+}
+
+#instabutton{
+display: flex;
+background-color: white;
+border: none;
+border-radius: 5px;
+width: 150px; 
+align-items: center;
+
+}
+
+#contactbuttons{
+
+display: flex;
+gap: 10px;
+padding-left: 30px;
+text-align: center;
+justify-content: center;
+
+}
+
+#icons{
+    text-align: center;
+    justify-content: center;
+    
+       
+
+}
+
+
+
+
+#direitos{
+    text-align: center;
+    font-size: medium
+   
+}
+
