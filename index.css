@@ -81,6 +81,9 @@ body {
     font-size: larger;
     padding: 5px 10px;
     border-radius: 5px;
+    background-color:whitesmoke;
+    color: rgb(192, 192, 192);
+    
     
     
    
@@ -107,14 +110,7 @@ body {
     
 }
 
-#links a:hover{
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    color:grey;
-    transition: 0.3s;
 
-
-}
 
 @media (max-width:768px) {
     #links{
@@ -125,6 +121,7 @@ body {
     #links ul {
        
         gap: 7px;
+
 
     }
     #links a {
@@ -157,30 +154,31 @@ body {
 
 
 #button{
-    background-color: transparent;
-    width: 250;
+    width: 40%;
     height: 50px;
-    color: rgb(255, 255, 255);
-    border-color: aliceblue;
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    border: 3%;
+    border-radius: 5%;
+    
    
     
 }
 
-#button:hover{
-    color: rgb(107, 107, 107);
-    transition: 0.3s;
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-   
-    
-   
+
+#button:hover {
+    background-color: whitesmoke;
+    color: rgb(161, 161, 161);
   
 }
+
+
 
 /*PART II START´S HERE*/
 
 #sobrenos{
-    padding-top: 230px;
+    padding-top: 250px;
     text-align: center;
     color: black;
     text-decoration: underline;
