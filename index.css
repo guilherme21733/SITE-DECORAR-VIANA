@@ -178,7 +178,7 @@ body {
 /*PART II START´S HERE*/
 
 #sobrenos{
-    padding-top: 280px;
+    padding-top: 250px;
     text-align: center;
     color: black;
     text-decoration: underline;
@@ -189,7 +189,7 @@ body {
 
 
 @media (max-width:800px){
-#sobrenos{ padding-top:279px ;
+#sobrenos{ padding-top:295px ;
 
 }
 }
