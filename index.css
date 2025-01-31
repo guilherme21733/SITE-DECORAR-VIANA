@@ -386,7 +386,9 @@ font-size: larger;
 #vermaisfotos{
    color: black;
    text-decoration: underline;
-   margin: 160px;
+   margin: auto;
+   padding-left: 130px;
+   
    
  
 
