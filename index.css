@@ -7,7 +7,8 @@
     
     
     body {
-        background-image: url('backgroundForDesktop.jpg');  
+        
+        background-image: url('rm345-kul-02-e.jpg');  
         background-size: cover;
         background-position: center;
         margin: 0;
@@ -19,7 +20,7 @@
     
     @media (max-width:768px) {
         body{
-        background-image:url('backgroundForMobile.jpeg') ;
+        background-image:url('rm345-kul-02-e.jpg') ;
         background-size: cover;
         background-position: center;
         }
