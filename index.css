@@ -18,13 +18,7 @@
         
     }
     
-    @media (max-width:768px) {
-        body{
-        background-image:url('rm345-kul-02-e.jpg') ;
-        background-size: cover;
-        background-position: center;
-        }
-    }
+   
     
     
     @media (min-width:769px){
@@ -164,44 +158,24 @@
     
     /*PART II START´S HERE*/
     
+
     
     
     
     
     
     
-    #sobrenos{
-        padding-top: 250px;
-        text-align: center;
-        color: black;
-        text-decoration: underline;
-        
-    
-    }
+ 
     
     
-    
-    @media (max-width:800px){
-    #sobrenos{ padding-top:295px ;
-    
-    }
-    }
+   
     
     
     
     
     
     
-    
-    #textosobrenos{
-        
-        padding-top: 3%;
-       
-       
-        
-    
-        
-    }
+
     
     
     
@@ -211,61 +185,24 @@
     
     
     
-    #sobrenostudao{
-    text-align: center;
-    font-size: larger;
-    
-    
-    }
     
     
         
     
     
-    #tudotudo{
-        
-        
-    }
+    
     
     
      
     
-    #imagemsobrecaixa{
-    
-        width: 90%;
-        height: 350px;
-        border: 1px solid black;
-       margin-top: 30px;
-       margin: auto;
-       position: relative;
-       display: flex;
-       overflow: auto;
-      scroll-snap-type: x mandatory;
-      white-space: nowrap;
-       
-    
-    }
+  
     
     
     
     
     
     
-    
-    #imagemsobrecaixa img{
-        width: 100%;
-        height: 100%;
-        position: sticky;
-        object-fit: cover;
-        left: 0;
-        flex-shrink: 0;
-        object-fit: cover;
-        scroll-behavior: smooth;
-        background-position: center;
-        scroll-snap-align: start;
-        
-        
-    }
+  
     
     
     
@@ -277,49 +214,7 @@
     
     
     
-    
-    #vermaisfotos{
-       color: black;
-       text-decoration: underline;
-       margin: auto;
-       padding-left: 130px;
-       
-    
-       
-       
-       
      
-    
-       
-    }
-    
-    @media(min-width:769px){
-        #sobrenos{
-            padding-top: 350px;
-            margin: auto;
-            margin-top: 0;
-            font-size: 37px;
-            
-            
-            
-            
-    
-        }
-        #sobrenostudao{
-            background-color: white;
-            
-        }
-        #imagemsobrecaixa{
-            background-color: white;
-        }
-    
-        #vermaisfotos{
-            background-color: white;
-        }
-    
-    
-    
-    }
     
     
     
