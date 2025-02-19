@@ -20,8 +20,16 @@
         margin: 0;
         height: 100vh; 
         background-repeat: no-repeat;
+        background-color: var(--color-1);
+
         
         
+    }
+
+    .title_div{
+        color: var(--color-5);
+        text-align: center;
+
     }
     #header{
         display: flex;
@@ -102,33 +110,51 @@
     /*PART II START´S HERE*/
     
 #divforpart2{
-    background-color: var(--color-1);
+    background-color:var(--color-1);
     width: 100%;
     height: 100%;
-    margin-top: 80%;
+    margin-top:64%;
 }
     
-#bem{
-    padding: 10px 0px 0px 73px;
-    color:var(--color-5);
-    display: flex;
     
-
-}
 #textbemvindo{
     text-align: center;
+    
 
 }
+
+#siga_nossas_redes{
+    padding: 30px;
+}
+.redes_icons{
+    text-align: center;
+   
+}
     
-    
-    
-    
-    
- 
-    
-    
+
+.box-polaroid{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
    
     
+
+}
+
+.polaroid{
+    border: 2px solid black;
+    width: 120px;
+    height: 180px;
+}
+
+.polaroid-inside{
+border: 1px solid black;
+background-color: red;
+width:96px;
+height: 140px;
+
+
+}
     
     
     
