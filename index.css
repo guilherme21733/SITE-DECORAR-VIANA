@@ -58,9 +58,13 @@
     #logoprincipal{
         max-width: 200px;
         min-width: 100px;
-        width:  140px ;
+        width:  200px ;
         margin: auto;
-        background-color:var(--color-3);
+        
+        
+       
+        
+       
         
         
     
@@ -123,47 +127,89 @@
 
 }
 
-#siga_nossas_redes{
-    padding: 30px;
-}
-.redes_icons{
-    text-align: center;
-   
-}
-    
+.carousel{
+overflow: hidden;
+width: 700px;
+background-color: var(--color-1);
+padding: 10px 0;
+margin-top: 30px;
+border-radius: 5px;
 
-.box-polaroid{
+}
+
+.image-container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 250px;
+    justify-items: stretch;
+    animation: animation 12s linear infinite;
+}
+
+.image-container img{ 
+    width: 200px;
+    height: 270px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 3px solid var(--color-5);
+
+}
+    @keyframes animation{
+        to{translate: calc(-4*250px);}
+    }
+
+
+    #ver-mais{
+        color: var(--color-5);
+        padding-left: 36%;
+       
+    }
+    
+  .redes{
+    width: 230px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border: 2px solid white;
+    box-shadow: 0 3px 3px 3px rgb(0, 0, 0);
+    
+  }
+    
+.redes-container{
     display: flex;
+    align-items: center;
+    gap: 14px;
     justify-content: center;
-    gap: 4px;
+}
+
+.icons{
+    width: 15%;
+}
+
+    
+ #text-decorar{
+    text-align: center;
+ }
+    
+ footer{
+    background-color: black;
+    color: white;
+  
+    
+    
+ } 
+ hr{
+    
+ }
+ #github{
+    width: 25px;
+    padding-left: 10px;
    
-    
+ }
+ .text-footer{
+    text-align: center;
+ }
 
-}
-
-.polaroid{
-    border: 2px solid black;
-    width: 120px;
-    height: 180px;
-}
-
-.polaroid-inside{
-border: 1px solid black;
-background-color: red;
-width:96px;
-height: 140px;
-
-
-}
-    
-    
-    
-    
-    
-
-    
-    
-    
+ 
     
     
     
