@@ -100,23 +100,21 @@
         border-radius: 5%;
         font-size: 15px;
         box-shadow: 0px 3px 10px 3px solid whitesmoke;
-       
         
        
+    }
+    #button:active{
+        background-color: #EBF0F2;
+        color: black;
+        border-color: #000;
+        transform: translate(-0px,-7px);
+        box-shadow: bottom 7 px whitesmoke;
+      transition: 100ms;
         
     }
+   
     
-
     
-    
-    #button:hover {
-       background-color: rgba(255, 255, 255, 0.89);
-        color: rgb(0, 0, 0);
-        border-radius: 15px;
-        border: 3px solid goldenrod;
-
-      
-    }
     
     
     
