@@ -14,13 +14,15 @@
     
     body {
         
-        background-image: url('mobile_background.jpg');  
+        background-image: url('mobile-backgroung-image.jpg');  
         background-size: cover;
         background-position: center;
         margin: 0;
         height: 100vh; 
         background-repeat: no-repeat;
         background-color: var(--color-1);
+        border-image: fill 0 linear-gradient(#0001,#000);
+
 
         
         
@@ -73,7 +75,8 @@
     
     #layoutbox{
         text-align: center;
-        padding-top: 100px;
+        padding-top: 50px;
+        
        
     }
     
@@ -82,18 +85,20 @@
         color: var(--color-1);
         font-size: 45px;
        
+       
     }
         
     
     #button{
         width: 40%;
         height: 50px;
-        color: white;
-        border-color:var(--color-2);
+        color: white;       
         background-color: transparent;
         border: 5%;
+        border-color: var(--color-1);
         border-radius: 5%;
         font-size: 15px;
+        box-shadow: 0px 3px 10px 3px solid whitesmoke;
        
         
        
@@ -104,8 +109,11 @@
     
     
     #button:hover {
-        background-color: whitesmoke;
-        color: rgb(161, 161, 161);
+       background-color: rgba(245, 245, 245, 0.315);
+        color: rgb(0, 0, 0);
+        border-radius: 15px;
+        border: 3px solid rgba(0, 0, 0, 0.856);
+
       
     }
     
@@ -151,7 +159,7 @@ border-radius: 5px;
     border-radius: 12px;
     object-fit: cover;
     border: 3px solid var(--color-5);
-
+    
 }
     @keyframes animation{
         to{translate: calc(-4*250px);}
