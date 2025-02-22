@@ -20,8 +20,7 @@
         margin: 0;
         height: 100vh; 
         background-repeat: no-repeat;
-        background-color: var(--color-2);
-
+        background-color: var(--color-3);
         border-image: fill 0 linear-gradient(#0001,#000);
 
 
@@ -140,7 +139,7 @@
 
 .carousel{
 overflow: hidden;
-width: 700px;
+width: 388px;
 background-color: transparent;
 padding: 10px 0;
 margin-top: 30px;
@@ -215,7 +214,7 @@ border-radius: 5px;
     
  } 
  hr{
-    
+    color: black;
  }
  #github{
     width: 25px;
