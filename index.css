@@ -20,7 +20,7 @@
         margin: 0;
         height: 100vh; 
         background-repeat: no-repeat;
-        background-color: var(--color-3);
+        background-color:;
         border-image: fill 0 linear-gradient(#0001,#000);
 
 
@@ -187,13 +187,14 @@ border-radius: 5px;
 
 .redes:hover{
     transform: translate(-3px,-3px);
-    border-color:var(--color-1) ;
+    border:1px solid black;
     
 }
 
-.redes img:hover{
+.redes img:active{
     transform: translate(-3px,-3px);
-    background-color: #BF1131;
+    
+    transition: 100ms;
 }
 .icons{
     width: 15%;
